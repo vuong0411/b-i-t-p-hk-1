@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Về Elden Ring</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://preview.redd.it/a9nndisd4i471.jpg?width=1080&crop=smart&auto=webp&s=db7bddb860626b12aed529a900be78378ef0faf2') no-repeat center center fixed;
+            background-size: cover;
+            color: #e2e8f0;
+        }
+        header {
+            background: rgba(51, 51, 51, 0.9);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 2px solid #4a5568;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(68, 68, 68, 0.8);
+            padding: 0.5rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: #e2e8f0;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #63b3ed;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .intro {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffdd57;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            border: 2px solid #ffdd57;
+            padding: 1rem;
+            margin: 2rem 0;
+            display: inline-block;
+            animation: glow 1.5s infinite;
+        }
+        @keyframes glow {
+            0% { box-shadow: 0 0 5px #ffdd57; }
+            50% { box-shadow: 0 0 20px #ffdd57; }
+            100% { box-shadow: 0 0 5px #ffdd57; }
+        }
+        .download {
+            margin: 3rem 0;
+        }
+        .btn-download {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            color: #fff;
+            background-color: #ff4500;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn-download:hover {
+            background-color: #ff6347;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Giới Thiệu Về Elden Ring</h1>
+    </header>
+    <nav>
+        <a href="story.html">Cốt Truyện</a>
+        <a href="develop.html">Thông tin nhà phát triển</a>
+        <a href="achievement.html">Thành Tựu</a>
+    </nav>
+    <div class="container">
+        <div class="intro">Chào mừng bạn đến ELDEN RING - thế giới của các cổ thần!</div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E3Huy2cdih0" 
+                title="Elden Ring Trailer" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="download">
+            <a class="btn-download" href="https://www.eldenring.com/" target="_blank">Tải Game Ngay</a>
+        </div>
+    </div>
+</body>
+</html>
